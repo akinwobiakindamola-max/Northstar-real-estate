@@ -1,0 +1,47 @@
+#ns-testimonials{position:relative;isolation:isolate;clip-path:inset(0);background:#081c24;padding:95px 7%;min-height:680px;display:flex;align-items:center;justify-content:center;color:#FFF5E4}#ns-testimonials,#ns-testimonials *{box-sizing:border-box}#ns-testimonials .ns-testimonial-background{position:fixed;inset:0;z-index:-1;pointer-events:none;background:url('assets/testimonials-interior.jpg') center 55%/cover no-repeat}#ns-testimonials .ns-testimonial-panel{width:100%;max-width:1250px;background:rgba(8,28,36,.86);padding:48px 50px 42px;text-align:center}#ns-testimonials h2{font-family:'Cormorant Garamond',Georgia,serif!important;font-weight:400!important;font-size:clamp(48px,5vw,82px)!important;line-height:1.1!important;letter-spacing:-.025em!important;text-transform:none!important;color:#FFF5E4!important;margin:0 0 30px!important}#ns-testimonials .ns-review-carousel{position:relative}#ns-testimonials .ns-review-slides{display:grid;align-items:center;min-height:300px;margin:0 58px}#ns-testimonials .ns-review{grid-area:1/1;margin:0}#ns-testimonials .ns-review[hidden]{display:none!important}#ns-testimonials .ns-review-title{font-family:'Cormorant Garamond',Georgia,serif!important;font-size:clamp(24px,2.2vw,34px)!important;font-weight:400!important;line-height:1.2;color:#A4C3C7;margin:0 0 18px}#ns-testimonials blockquote{padding:0;border:0;margin:0}#ns-testimonials blockquote p{font-family:'Cormorant Garamond',Georgia,serif!important;font-size:clamp(23px,2.2vw,34px)!important;font-weight:400!important;font-style:italic;line-height:1.5!important;color:#FFF5E4!important;margin:0!important}#ns-testimonials .ns-review-author{font:400 14px/1.5 'Host Grotesk',Arial,sans-serif!important;color:#FFF5E4!important;margin:24px 0 0!important}#ns-testimonials .ns-review-arrow{position:absolute;top:calc(50% - 35px);width:48px;height:48px;border:1px solid #FFF5E4;background:#FFF5E4;color:#081C24;border-radius:50%;display:grid;place-items:center;cursor:pointer;transition:background .2s,border-color .2s}#ns-testimonials .ns-review-arrow:hover{background:#A4C3C7;border-color:#A4C3C7}#ns-testimonials .ns-review-arrow svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.3}#ns-testimonials .ns-review-prev{left:-26px}#ns-testimonials .ns-review-next{right:-26px}#ns-testimonials .ns-review-dots{display:flex;justify-content:center;gap:13px;margin-top:26px}#ns-testimonials .ns-review-dots button{padding:0;width:8px;height:8px;border:1px solid #FFF5E4;background:transparent;border-radius:50%;cursor:pointer}#ns-testimonials .ns-review-dots button[aria-pressed=true]{background:#FFF5E4}#ns-testimonials .ns-review-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}#ns-testimonials button:focus-visible,#ns-testimonials .ns-review-carousel:focus-visible{outline:2px solid #A4C3C7;outline-offset:5px}#ns-testimonials .ns-review.ns-review-enter{animation:ns-review-fade .45s ease both}@keyframes ns-review-fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@media(max-width:800px){#ns-testimonials{padding:70px 5%;min-height:650px}#ns-testimonials .ns-testimonial-panel{padding:40px 35px}#ns-testimonials .ns-review-slides{min-height:350px;margin:0 30px}#ns-testimonials .ns-review-title{font-size:27px!important}#ns-testimonials blockquote p{font-size:26px!important}#ns-testimonials .ns-review-prev{left:-22px}#ns-testimonials .ns-review-next{right:-22px}#ns-testimonials .ns-review-arrow{width:42px;height:42px}}@media(max-width:500px){#ns-testimonials{padding:50px 18px;min-height:720px}#ns-testimonials .ns-testimonial-panel{padding:32px 20px}#ns-testimonials h2{font-size:47px!important;margin-bottom:25px!important}#ns-testimonials .ns-review-slides{min-height:440px;margin:0 8px}#ns-testimonials .ns-review-title{font-size:25px!important}#ns-testimonials blockquote p{font-size:23px!important;line-height:1.45!important}#ns-testimonials .ns-review-author{font-size:12px!important}#ns-testimonials .ns-review-arrow{position:relative;top:auto;display:inline-grid;width:44px;height:44px}#ns-testimonials .ns-review-prev{left:auto;margin-right:10px}#ns-testimonials .ns-review-next{right:auto;margin-top:20px}#ns-testimonials .ns-review-carousel{display:flex;flex-wrap:wrap;justify-content:center;align-items:center}#ns-testimonials .ns-review-slides{order:0;width:100%}#ns-testimonials .ns-review-prev{order:1;margin-top:20px}#ns-testimonials .ns-review-next{order:2}#ns-testimonials .ns-review-dots{order:3;width:100%;margin-top:20px}}@media(prefers-reduced-motion:reduce){#ns-testimonials .ns-review.ns-review-enter{animation:none}#ns-testimonials .ns-testimonial-background{position:absolute}#ns-testimonials *{transition:none!important}}
+
+#ns-testimonials .ns-all-reviews{display:inline-flex;align-items:center;justify-content:center;margin-top:28px;padding:16px 26px;border:1px solid #FFF5E4;border-radius:100px;background:#FFF5E4;color:#081C24;font:400 12px/1.3 'Host Grotesk',Arial,sans-serif;text-transform:uppercase;cursor:pointer}
+#ns-testimonials .ns-all-reviews:hover{background:#A4C3C7;border-color:#A4C3C7}
+#ns-testimonials .ns-review-dialog{width:min(850px,92vw);max-height:85svh;overflow:auto;padding:45px 40px;border:0;background:#FFF5E4;color:#081C24;text-align:left}
+#ns-testimonials .ns-review-dialog::backdrop{background:#081c24c4}
+#ns-testimonials .ns-review-dialog h2{color:#081C24!important;font-size:52px!important}
+#ns-testimonials .ns-review-dialog .ns-review{display:block;margin:0;padding:25px 0;border-top:1px solid #081c2430}
+#ns-testimonials .ns-review-dialog .ns-review-title{color:#081C24;font-size:28px!important}
+#ns-testimonials .ns-review-dialog blockquote p{color:#081C24!important;font-size:24px!important}
+#ns-testimonials .ns-review-dialog .ns-review-author{color:#081C24!important}
+#ns-testimonials .ns-close-reviews{position:absolute;right:15px;top:12px;background:none;border:0;color:#081C24;font-size:30px;cursor:pointer;width:40px;height:40px}
+@media(max-width:500px){#ns-testimonials .ns-review-dialog{padding:42px 24px 25px}}
+
+/* Compact testimonial section */
+#ns-testimonials{min-height:490px;padding:55px 7%}
+#ns-testimonials .ns-testimonial-panel{max-width:900px;padding:30px 42px 28px}
+#ns-testimonials h2{font-size:52px!important;margin-bottom:18px!important}
+#ns-testimonials .ns-review-slides{min-height:210px;margin:0 40px}
+#ns-testimonials .ns-review-title{font-size:23px!important;margin-bottom:12px}
+#ns-testimonials blockquote p{font-size:23px!important;line-height:1.4!important}
+#ns-testimonials .ns-review-author{font-size:12px!important;margin-top:15px!important}
+#ns-testimonials .ns-review-arrow{width:40px;height:40px;top:calc(50% - 28px)}
+#ns-testimonials .ns-review-prev{left:-22px}
+#ns-testimonials .ns-review-next{right:-22px}
+#ns-testimonials .ns-review-dots{margin-top:16px}
+#ns-testimonials .ns-all-reviews{margin-top:20px;padding:13px 23px;font-size:11px}
+@media(max-width:800px){
+ #ns-testimonials{min-height:450px;padding:45px 5%}
+ #ns-testimonials .ns-testimonial-panel{padding:28px 32px}
+ #ns-testimonials h2{font-size:46px!important}
+ #ns-testimonials .ns-review-slides{min-height:240px;margin:0 25px}
+ #ns-testimonials blockquote p{font-size:21px!important}
+ #ns-testimonials .ns-review-title{font-size:22px!important}
+}
+@media(max-width:500px){
+ #ns-testimonials{min-height:0;padding:35px 18px}
+ #ns-testimonials .ns-testimonial-panel{padding:25px 22px}
+ #ns-testimonials h2{font-size:38px!important;margin-bottom:18px!important}
+ #ns-testimonials .ns-review-slides{min-height:300px;margin:0;width:100%}
+ #ns-testimonials .ns-review-title{font-size:21px!important}
+ #ns-testimonials blockquote p{font-size:20px!important;line-height:1.4!important}
+ #ns-testimonials .ns-review-arrow{position:relative;top:auto;width:40px;height:40px}
+ #ns-testimonials .ns-review-prev{left:auto}
+ #ns-testimonials .ns-review-next{right:auto}
+ #ns-testimonials .ns-review-author{font-size:11px!important}
+}
